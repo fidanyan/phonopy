@@ -197,7 +197,7 @@ class BandStructure(object):
         return self._eigenvalues
 
     def get_unit_conversion_factor(self):
-        warnings.simplefilter("always")
+        warnings.simplefilter("once")
         warnings.warn(
             "Bandstructure.get_unit_conversion_factor is deprecated.",
             DeprecationWarning)
