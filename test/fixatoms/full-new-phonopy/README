@@ -1,0 +1,4 @@
+How to use:
+1. execute new version of 'phonopy-FHI-aims' here
+2. modify and run '../run-single-points.sh'
+3. execute phonopy-FHI-aims again.

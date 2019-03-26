@@ -1,0 +1,30 @@
+25.03.2019.
+This folder contains benchmark which will accompany my changes to phonopy-FHI-aims,
+which are related to excluding atoms from phonon calculations.
+Current state:
+
+constrained-new-phonopy/
+    contains test that new version does the job
+
+constrained-supercell-new/
+    proves that new version throws error 
+    when it's asked to use both constrained atoms and supercell
+    (later it may be changed if I implement supercells with constraints)
+
+full-new-phonopy/
+full-old-phonopy/
+    These two folders show that old and new versions work exactly equally if there are no constrained atoms
+
+full-supercell-new/
+full-supercell-old/
+    This two folders show, that new version also works equally 
+    for supercell, if there are no costrainted atoms.
+
+geop/
+    How the geometry of the unit cell was obtained
+
+
+==================================== HOW TO USE: ====================================
+  In each folder run old or new version of 'phonopy-FHI-aims' (see README in folders),
+  then run one of 'run-all-dft-*.sh',
+  then again in each folder the same version of 'phonopy-FHI-aims'
