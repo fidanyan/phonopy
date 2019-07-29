@@ -772,7 +772,7 @@ if __name__ == "__main__":
     from phonopy.phonon.mesh import Mesh
 
     print("### phonopy wrapper for FHI-aims ###")
-    version = "2019-03-25"
+    version = "2019-03-25 (with constraints)"
     print( "# version " + version)
     print( "#")
 
